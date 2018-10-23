@@ -156,7 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Tickets.aspx" />
-    <Content Include="bin\Tickets.dll.config" />
     <None Include="Properties\PublishProfiles\proyectotickets - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\proyectotickets - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\reportetickets - FTP.pubxml" />

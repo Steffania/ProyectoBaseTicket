@@ -1,4 +1,3 @@
-C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\Tickets\bin\Tickets.dll.config
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\Tickets\bin\Tickets.dll
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\Tickets\bin\Tickets.pdb
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\Tickets\bin\BaseTicketData.dll
