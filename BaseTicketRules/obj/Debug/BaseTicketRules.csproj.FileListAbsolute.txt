@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\obj\Debug\BaseTicketRules.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketRules.XML
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketRules.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketRules.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\Cooperator.Framework.Core.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\Cooperator.Framework.Data.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\Cooperator.Framework.Library.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketEntities.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketData.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\bin\Debug\BaseTicketData.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\obj\Debug\BaseTicketRules.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketRules\obj\Debug\BaseTicketRules.pdb

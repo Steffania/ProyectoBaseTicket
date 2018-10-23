@@ -1,0 +1,1254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BaseTicketData</name>
+    </assembly>
+    <members>
+        <member name="T:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway">
+            <summary>
+            
+            </summary>
+            <summary>
+            Gateway between database_firewall_rulesObject class and sys.database_firewall_rules table.
+            This class provide CRUD methods for sys.database_firewall_rules table.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetFieldsForInsert(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetFieldsForUpdate(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetFieldsForDelete(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.UpdateObjectFromOutputParams(BaseTicketRules.Objects.sys.database_firewall_rulesObject,System.Object[])">
+            <summary>
+            Raised after insert and update. Update properties from Output parameters
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rulesObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rulesObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.GetOne">
+            <summary>
+            Get a database_firewall_rulesObject by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.sys.database_firewall_rulesGateway.RuleName">
+            <summary>
+            Return the database_firewall_rulesGateway type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Gateways.vw_TicketsGateway">
+            <summary>
+            
+            </summary>
+            <summary>
+            Gateway between vw_TicketsObject class and vw_Tickets table.
+            This class provide CRUD methods for vw_Tickets table.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetFieldsForInsert(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetFieldsForUpdate(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetFieldsForDelete(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.UpdateObjectFromOutputParams(BaseTicketRules.Objects.vw_TicketsObject,System.Object[])">
+            <summary>
+            Raised after insert and update. Update properties from Output parameters
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a vw_TicketsObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetBySQLQuery(System.String)">
+            <summary>
+            Get a vw_TicketsObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetOne">
+            <summary>
+            Get a vw_TicketsObject by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetByNumero(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.vw_TicketsGateway.GetByNumero(System.Data.Common.DbTransaction,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.vw_TicketsGateway.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.vw_TicketsGateway.RuleName">
+            <summary>
+            Return the vw_TicketsGateway type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.LazyProviders.DefaultLazyProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.LazyProviders.DefaultLazyProvider.GetEntity(System.Type,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Get associated entity for this entity
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.LazyProviders.DefaultLazyProvider.GetList(System.Type,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Get collection based in the parent entity
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Mappers.AreaMapper">
+            <summary>
+            Mapper for Area entity
+            This class provide persistence methods for this entity
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetMappingType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Entities.Area)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetFieldsForInsert(BaseTicketRules.Entities.Area)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetFieldsForUpdate(BaseTicketRules.Entities.Area)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetFieldsForDelete(BaseTicketRules.Entities.Area)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.UpdateObjectFromOutputParams(BaseTicketRules.Entities.Area,System.Object[])">
+            <summary>
+            Raised after insert and update
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.CompleteEntity(BaseTicketRules.Entities.Area)">
+            <summary>
+            Complete the aggregations for this entity. 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.DeleteChildren(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Delete children for this entity
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a Area by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetBySQLQuery(System.String)">
+            <summary>
+            Get a AreaList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.GetOne(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.AreaMapper.Delete(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.AreaMapper.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.AreaMapper.RuleName">
+            <summary>
+            Return the AreaMapper type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.AreaLoader">
+            <summary>
+            Loader for Area entity
+            This class provide get methods for this entity
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Wrappers.AreaMapperWrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.GetOne(System.Int32)">
+            <summary>
+            Get a AreaEntity by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.GetAll">
+            <summary>
+            GetAll Area 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.DeleteChildren(System.Data.Common.DbTransaction,BaseTicketRules.Entities.Area)">
+            <summary>
+            Delete children for Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Delete(System.Int32)">
+            <summary>
+            Delete Area 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Delete(BaseTicketRules.Entities.Area)">
+            <summary>
+            Delete Area 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Save(BaseTicketRules.Entities.Area)">
+            <summary>
+            Save Area  
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Insert(BaseTicketRules.Entities.Area)">
+            <summary>
+            Insert Area 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Save(System.Int32,System.String)">
+            <summary>
+            Save Area 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.AreaMapperWrapper.Insert(System.String)">
+            <summary>
+            Insert Area
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.AreaLoader`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Entities.Area)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.StoredProceduresPrefix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.CompleteEntity(`0)">
+            <summary>
+            Complete the aggregations for this entity. 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a Area by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.GetBySQLQuery(System.String)">
+            <summary>
+            Get a AreaList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.AreaLoader`1.GetOne(System.Int32)">
+            <summary>
+            GetOne By Params
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Loaders.AreaLoader`1.TableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Gateways.AreaGateway">
+            <summary>
+            Gateway between AreaObject class and Area table.
+            This class provide CRUD methods for Area table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetFieldsForInsert(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetFieldsForUpdate(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetFieldsForDelete(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.UpdateObjectFromOutputParams(BaseTicketRules.Objects.AreaObject,System.Object[])">
+            <summary>
+            Raised after insert and update. Update properties from Output parameters
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a AreaObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetBySQLQuery(System.String)">
+            <summary>
+            Get a AreaObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.GetOne(System.Int32)">
+            <summary>
+            Get a AreaObject by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.Delete(System.Int32)">
+            <summary>
+            Delete Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.AreaGateway.Delete(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            Delete Area
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.AreaGateway.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.AreaGateway.RuleName">
+            <summary>
+            Return the AreaGateway type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper">
+            <summary>
+            
+            </summary>
+            <summary>
+            Mapper for database_firewall_rules entity
+            This class provide persistence methods for this entity
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetMappingType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetFieldsForInsert(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetFieldsForUpdate(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetFieldsForDelete(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.UpdateObjectFromOutputParams(BaseTicketRules.Objects.sys.database_firewall_rulesObject,System.Object[])">
+            <summary>
+            Raised after insert and update
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rulesObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.GetBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rulesObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.sys.database_firewall_rulesMapper.RuleName">
+            <summary>
+            Return the database_firewall_rulesMapper type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Wrappers.sys.database_firewall_rulesMapperWrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.sys.database_firewall_rulesMapperWrapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.sys.database_firewall_rulesMapperWrapper.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.sys.database_firewall_rulesMapperWrapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.sys.database_firewall_rulesMapperWrapper.GetAll">
+            <summary>
+            GetAll database_firewall_rulesObject 
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.StoredProceduresPrefix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rules by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.GetBySQLQuery(System.String)">
+            <summary>
+            Get a database_firewall_rulesList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader`1.TableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Mappers.vw_TicketsMapper">
+            <summary>
+            
+            </summary>
+            <summary>
+            Mapper for vw_Tickets entity
+            This class provide persistence methods for this entity
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetMappingType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetFieldsForInsert(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetFieldsForUpdate(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetFieldsForDelete(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.UpdateObjectFromOutputParams(BaseTicketRules.Objects.vw_TicketsObject,System.Object[])">
+            <summary>
+            Raised after insert and update
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a vw_TicketsObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetBySQLQuery(System.String)">
+            <summary>
+            Get a vw_TicketsObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetByNumero(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.vw_TicketsMapper.GetByNumero(System.Data.Common.DbTransaction,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.vw_TicketsMapper.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.vw_TicketsMapper.RuleName">
+            <summary>
+            Return the vw_TicketsMapper type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper.GetAll">
+            <summary>
+            GetAll vw_TicketsObject 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.vw_TicketsMapperWrapper.GetByNumero(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.vw_TicketsLoader`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.IsReadOnly">
+            <summary>
+            If this table is read only
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.StoredProceduresPrefix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a vw_Tickets by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetBySQLQuery(System.String)">
+            <summary>
+            Get a vw_TicketsList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetByNumero(System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.vw_TicketsLoader`1.GetByNumero(System.Data.Common.DbTransaction,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Loaders.vw_TicketsLoader`1.TableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.sys.database_firewall_rulesLoader">
+            <summary>
+            Loader for database_firewall_rules entity
+            This class provide get methods for this entity
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Mappers.TicketsMapper">
+            <summary>
+            Mapper for Tickets entity
+            This class provide persistence methods for this entity
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetMappingType">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetFieldsForInsert(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetFieldsForUpdate(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetFieldsForDelete(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.UpdateObjectFromOutputParams(BaseTicketRules.Entities.Tickets,System.Object[])">
+            <summary>
+            Raised after insert and update
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.CompleteEntity(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Complete the aggregations for this entity. 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.DeleteChildren(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Delete children for this entity
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a Tickets by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetBySQLQuery(System.String)">
+            <summary>
+            Get a TicketsList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetOne(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetByArea(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetByArea(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetByArea(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.GetByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.Delete(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.Delete(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.DeleteByArea(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.DeleteByArea(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.DeleteByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Mappers.TicketsMapper.DeleteByArea(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.TicketsMapper.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Mappers.TicketsMapper.RuleName">
+            <summary>
+            Return the TicketsMapper type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.TicketsLoader">
+            <summary>
+            Loader for Tickets entity
+            This class provide get methods for this entity
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Wrappers.TicketsMapperWrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetOne(System.Int32)">
+            <summary>
+            Get a TicketsEntity by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetByArea(System.Int32)">
+            <summary>
+            Get a TicketsList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Get a TicketsList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.GetAll">
+            <summary>
+            GetAll Tickets 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.DeleteChildren(System.Data.Common.DbTransaction,BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Delete children for Tickets
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.DeleteByArea(System.Int32)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.DeleteByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Delete(System.Int32)">
+            <summary>
+            Delete Tickets 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Delete(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Delete Tickets 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Save(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Save Tickets  
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Insert(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            Insert Tickets 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Save(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            Save Tickets 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Wrappers.TicketsMapperWrapper.Insert(System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            Insert Tickets
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.TicketsLoader`1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetPKPropertiesNames">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetMappingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Entities.Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.StoredProceduresPrefix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.CompleteEntity(`0)">
+            <summary>
+            Complete the aggregations for this entity. 
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a Tickets by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetBySQLQuery(System.String)">
+            <summary>
+            Get a TicketsList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetOne(System.Int32)">
+            <summary>
+            GetOne By Params
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetByArea(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetByArea(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetByArea(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Loaders.TicketsLoader`1.GetByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Loaders.TicketsLoader`1.TableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Gateways.TicketsGateway">
+            <summary>
+            Gateway between TicketsObject class and Tickets table.
+            This class provide CRUD methods for Tickets table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.Instance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.HydrateFields(System.Data.Common.DbDataReader,BaseTicketRules.Objects.TicketsObject)">
+            <summary>
+            Assign properties values based on DataReader
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetFieldsForInsert(BaseTicketRules.Objects.TicketsObject)">
+            <summary>
+            Get field values to call insertion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetFieldsForUpdate(BaseTicketRules.Objects.TicketsObject)">
+            <summary>
+            Get field values to call update stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetFieldsForDelete(BaseTicketRules.Objects.TicketsObject)">
+            <summary>
+            Get field values to call deletion stored procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.UpdateObjectFromOutputParams(BaseTicketRules.Objects.TicketsObject,System.Object[])">
+            <summary>
+            Raised after insert and update. Update properties from Output parameters
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.StoredProceduresPrefix">
+            <summary>
+            StoredProceduresPrefix, for example: coop_
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetOneBySQLQuery(System.String)">
+            <summary>
+            Get a TicketsObject by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetBySQLQuery(System.String)">
+            <summary>
+            Get a TicketsObjectList by execute a SQL Query Text
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetOne(System.Int32)">
+            <summary>
+            Get a TicketsObject by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetByArea(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            Get a TicketsObjectList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetByArea(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Get a TicketsObjectList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetByArea(System.Int32)">
+            <summary>
+            Get a TicketsObjectList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.GetByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Get a TicketsObjectList by calling a Stored Procedure
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.Delete(System.Int32)">
+            <summary>
+            Delete Tickets
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.Delete(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            Delete Tickets
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.DeleteByArea(System.Int32)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.DeleteByArea(System.Data.Common.DbTransaction,System.Int32)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.DeleteByArea(Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Gateways.TicketsGateway.DeleteByArea(System.Data.Common.DbTransaction,Cooperator.Framework.Core.IUniqueIdentifiable)">
+            <summary>
+            Delete Tickets by Area
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.TicketsGateway.TableName">
+            <summary>
+            Return the mapped table name
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Gateways.TicketsGateway.RuleName">
+            <summary>
+            Return the TicketsGateway type FullName
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Loaders.vw_TicketsLoader">
+            <summary>
+            Loader for vw_Tickets entity
+            This class provide get methods for this entity
+            </summary>
+        </member>
+    </members>
+</doc>

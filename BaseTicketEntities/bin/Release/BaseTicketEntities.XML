@@ -1,0 +1,1036 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BaseTicketEntities</name>
+    </assembly>
+    <members>
+        <member name="T:BaseTicketRules.Entities.Area">
+            <summary>
+            This class represents the Area entity.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.AreaObject">
+            <summary>
+            This class represents a Object of Area table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.IMappeableAreaObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableAreaObject.HydrateFields(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableAreaObject.GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableAreaObject.GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableAreaObject.GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableAreaObject.UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.Initialize">
+            <summary>
+            Called from class constructor.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.AreaObject._AreaId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.AreaObject._Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.SetOriginalValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.OriginalValue">
+            <summary>
+            Returns de original value of object since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.BaseTicketRules#Objects#IMappeableAreaObject#HydrateFields(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.BaseTicketRules#Objects#IMappeableAreaObject#GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.BaseTicketRules#Objects#IMappeableAreaObject#GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.BaseTicketRules#Objects#IMappeableAreaObject#GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.BaseTicketRules#Objects#IMappeableAreaObject#UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.Cooperator#Framework#Core#IUniqueIdentifiable#Identifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.AreaObject.Equals(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.AreaObject.AreaId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.AreaObject.Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.IMappeableArea">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeableArea.CompleteEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeableArea.SetFKValuesForChilds(BaseTicketRules.Entities.Area)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.OriginalValue">
+            <summary>
+            Returns de original value of entity since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.BaseTicketRules#Entities#IMappeableArea#CompleteEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.BaseTicketRules#Entities#IMappeableArea#SetFKValuesForChilds(BaseTicketRules.Entities.Area)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Area.Equals(BaseTicketRules.Entities.Area)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.AreaList">
+            <summary>
+            This class represents a collection of Area entity.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.AreaListView">
+            <summary>
+            This class represents a view of an collection of Area entities.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.AreaListView.#ctor(BaseTicketRules.Entities.AreaList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.vw_Tickets">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents the vw_Tickets entity.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.vw_TicketsObject">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a Object of vw_Tickets table.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.IMappeablevw_TicketsObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeablevw_TicketsObject.HydrateFields(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeablevw_TicketsObject.GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeablevw_TicketsObject.GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeablevw_TicketsObject.GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeablevw_TicketsObject.UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._TicketId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Numero">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Nombre">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Apellido">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Telefono">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._FechaTicket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.vw_TicketsObject._Area">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.SetOriginalValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.OriginalValue">
+            <summary>
+            Returns de original value of object since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.BaseTicketRules#Objects#IMappeablevw_TicketsObject#HydrateFields(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.BaseTicketRules#Objects#IMappeablevw_TicketsObject#GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.BaseTicketRules#Objects#IMappeablevw_TicketsObject#GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.BaseTicketRules#Objects#IMappeablevw_TicketsObject#GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.BaseTicketRules#Objects#IMappeablevw_TicketsObject#UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.Cooperator#Framework#Core#IUniqueIdentifiable#Identifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.Equals(BaseTicketRules.Objects.vw_TicketsObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.vw_TicketsObject.Initialize">
+            <summary>
+            Called from class constructor.
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.TicketId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Numero">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Nombre">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Apellido">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Telefono">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.FechaTicket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.vw_TicketsObject.Area">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.IMappeablevw_Tickets">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeablevw_Tickets.CompleteEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeablevw_Tickets.SetFKValuesForChilds(BaseTicketRules.Entities.vw_Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.OriginalValue">
+            <summary>
+            Returns de original value of entity since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.BaseTicketRules#Entities#IMappeablevw_Tickets#CompleteEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.BaseTicketRules#Entities#IMappeablevw_Tickets#SetFKValuesForChilds(BaseTicketRules.Entities.vw_Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.vw_Tickets.Equals(BaseTicketRules.Entities.vw_Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.vw_TicketsList">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a collection of vw_Tickets entity.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.vw_TicketsListView">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a view of an collection of vw_Tickets entities.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.vw_TicketsListView.#ctor(BaseTicketRules.Entities.vw_TicketsList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.AreaObjectList">
+            <summary>
+            This class represents a record set of Area table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.AreaObjectListView">
+            <summary>
+            This class represents a view of an collection of AreaObjects.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.AreaObjectListView.#ctor(BaseTicketRules.Objects.AreaObjectList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.Tickets">
+            <summary>
+            This class represents the Tickets entity.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.TicketsObject">
+            <summary>
+            This class represents a Object of Tickets table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.IMappeableTicketsObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableTicketsObject.HydrateFields(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableTicketsObject.GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableTicketsObject.GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableTicketsObject.GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.IMappeableTicketsObject.UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.Initialize">
+            <summary>
+            Called from class constructor.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.#ctor(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._TicketId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Numero">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._AreaId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Nombre">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Apellido">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Telefono">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._FechaTicket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.TicketsObject._Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.SetOriginalValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.OriginalValue">
+            <summary>
+            Returns de original value of object since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.BaseTicketRules#Objects#IMappeableTicketsObject#HydrateFields(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.BaseTicketRules#Objects#IMappeableTicketsObject#GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.BaseTicketRules#Objects#IMappeableTicketsObject#GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.BaseTicketRules#Objects#IMappeableTicketsObject#GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.BaseTicketRules#Objects#IMappeableTicketsObject#UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.Cooperator#Framework#Core#IUniqueIdentifiable#Identifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.TicketsObject.Equals(BaseTicketRules.Objects.TicketsObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.TicketId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Numero">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.AreaId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Nombre">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Apellido">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Telefono">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Email">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.FechaTicket">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.TicketsObject.Descripcion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.IMappeableTickets">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeableTickets.CompleteEntity(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeableTickets.IsAreaEntityNull">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.IMappeableTickets.SetFKValuesForChilds(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.#ctor(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Entities.Tickets._AreaEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.OriginalValue">
+            <summary>
+            Returns de original value of entity since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.BaseTicketRules#Entities#IMappeableTickets#CompleteEntity(BaseTicketRules.Objects.AreaObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.BaseTicketRules#Entities#IMappeableTickets#SetFKValuesForChilds(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Entities.Tickets.Equals(BaseTicketRules.Entities.Tickets)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Entities.Tickets.AreaEntity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Entities.TicketsList">
+            <summary>
+            This class represents a collection of Tickets entity.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.TicketsListView">
+            <summary>
+            This class represents a view of an collection of Tickets entities.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.TicketsListView.#ctor(BaseTicketRules.Entities.TicketsList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.sys.database_firewall_rulesObject">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a Object of sys.database_firewall_rules table.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject.HydrateFields(System.Int32,System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject.GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject.GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject.GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.IMappeabledatabase_firewall_rulesObject.UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.#ctor(System.Int32,System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._start_ip_address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._end_ip_address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._create_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BaseTicketRules.Objects.sys.database_firewall_rulesObject._modify_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.SetOriginalValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.System#ICloneable#Clone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.OriginalValue">
+            <summary>
+            Returns de original value of object since was created or restored.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.BaseTicketRules#Objects#sys#IMappeabledatabase_firewall_rulesObject#HydrateFields(System.Int32,System.String,System.String,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.BaseTicketRules#Objects#sys#IMappeabledatabase_firewall_rulesObject#GetFieldsForInsert">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.BaseTicketRules#Objects#sys#IMappeabledatabase_firewall_rulesObject#GetFieldsForUpdate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.BaseTicketRules#Objects#sys#IMappeabledatabase_firewall_rulesObject#GetFieldsForDelete">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.BaseTicketRules#Objects#sys#IMappeabledatabase_firewall_rulesObject#UpdateObjectFromOutputParams(System.Object[])">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.Cooperator#Framework#Core#IUniqueIdentifiable#Identifier">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.Equals(BaseTicketRules.Objects.sys.database_firewall_rulesObject)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Objects.sys.database_firewall_rulesObject.Initialize">
+            <summary>
+            Called from class constructor.
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.start_ip_address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.end_ip_address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.create_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BaseTicketRules.Objects.sys.database_firewall_rulesObject.modify_date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.sys.database_firewall_rulesObjectList">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a record set of sys.database_firewall_rules table.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.sys.database_firewall_rulesObjectListView">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a view of an collection of sys.database_firewall_rulesObjects.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.sys.database_firewall_rulesObjectListView.#ctor(BaseTicketRules.Objects.sys.database_firewall_rulesObjectList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.vw_TicketsObjectList">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a record set of vw_Tickets table.
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.vw_TicketsObjectListView">
+            <summary>
+            
+            </summary>
+            <summary>
+            This class represents a view of an collection of vw_TicketsObjects.
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.vw_TicketsObjectListView.#ctor(BaseTicketRules.Objects.vw_TicketsObjectList)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Objects.TicketsObjectList">
+            <summary>
+            This class represents a record set of Tickets table.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:BaseTicketRules.Views.TicketsObjectListView">
+            <summary>
+            This class represents a view of an collection of TicketsObjects.
+            </summary>
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BaseTicketRules.Views.TicketsObjectListView.#ctor(BaseTicketRules.Objects.TicketsObjectList)">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

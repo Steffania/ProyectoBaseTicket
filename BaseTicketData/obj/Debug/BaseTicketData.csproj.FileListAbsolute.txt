@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Debug\BaseTicketData.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketData.XML
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketData.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\Cooperator.Framework.Core.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\Cooperator.Framework.Data.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\Cooperator.Framework.Library.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Debug\BaseTicketEntities.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Debug\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Debug\BaseTicketData.pdb

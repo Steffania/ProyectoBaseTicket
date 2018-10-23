@@ -1,0 +1,12 @@
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketData.XML
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketData.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\Cooperator.Framework.Core.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\Cooperator.Framework.Data.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\Cooperator.Framework.Library.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\bin\Release\BaseTicketEntities.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Release\BaseTicketData.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Release\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketData\obj\Release\BaseTicketData.pdb

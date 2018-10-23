@@ -1,0 +1,7 @@
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\bin\Release\BaseTicketEntities.XML
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\bin\Release\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\bin\Release\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\bin\Release\Cooperator.Framework.Core.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Release\BaseTicketEntities.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Release\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Release\BaseTicketEntities.pdb

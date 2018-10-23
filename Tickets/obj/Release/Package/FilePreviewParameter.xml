@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="proyectotickets" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Usuario\\Documents\\PROYECTOS_INFO\\ProyectoBaseTicket\\Tickets\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Usuario\\Documents\\PROYECTOS_INFO\\ProyectoBaseTicket\\Tickets\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="proyectotickets/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Usuario\\Documents\\PROYECTOS_INFO\\ProyectoBaseTicket\\Tickets\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="BaseTicketConnectionString-Web.config Connection String" description="" value="Data Source=ticketserverr.database.windows.net;Initial Catalog=BaseTicket;User ID=miuser;Password=CsSnIs22" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Usuario\\Documents\\PROYECTOS_INFO\\ProyectoBaseTicket\\Tickets\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BaseTicketConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="CooperatorConnectionString-Web.config Connection String" description="" value="Persist Security Info=True;Initial Catalog=BaseTicket;Data Source=ticketserverr.database.windows.net; Application Name=BaseTicket;User ID=miuser;Password=CsSnIs22; Connection Timeout=60;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Usuario\\Documents\\PROYECTOS_INFO\\ProyectoBaseTicket\\Tickets\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CooperatorConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

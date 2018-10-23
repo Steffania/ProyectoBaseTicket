@@ -1,0 +1,16 @@
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\obj\Debug\UnitTestTickets.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\UnitTestTickets.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\UnitTestTickets.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\Tickets.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketEntities.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketData.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\Cooperator.Framework.Data.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\Cooperator.Framework.Core.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\Cooperator.Framework.Library.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\Tickets.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketEntities.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketData.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\bin\Debug\BaseTicketData.xml
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\obj\Debug\UnitTestTickets.dll
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\UnitTestTickets\obj\Debug\UnitTestTickets.pdb
