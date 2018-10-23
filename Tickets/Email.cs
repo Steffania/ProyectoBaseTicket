@@ -17,11 +17,9 @@ namespace Tickets
         {
             bool resultado = false;
             MailMessage correo = new MailMessage();            
-            correo.From = new MailAddress("estefvera2018@gmail.com");
-            correo.To.Add(new MailAddress(direccion));
-
-            //Reemplazar por mail de tengofree
-            MailAddress bcc = new MailAddress("estefania_ii5587@hotmail.com");
+            correo.From = new MailAddress("estefvera2018@gmail.com");            
+            correo.To.Add(new MailAddress(direccion));            
+            MailAddress bcc = new MailAddress("tengofree@gmail.com");
             correo.Bcc.Add(bcc);
             correo.Subject = asunto;
             correo.Body = mensaje;

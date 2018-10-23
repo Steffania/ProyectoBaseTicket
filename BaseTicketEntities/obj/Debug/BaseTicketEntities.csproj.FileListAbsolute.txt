@@ -4,3 +4,4 @@ C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\bin\Debug\Cooperator.Framework.Core.dll
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Debug\BaseTicketEntities.dll
 C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Debug\BaseTicketEntities.pdb
+C:\Users\Usuario\Documents\PROYECTOS_INFO\ProyectoBaseTicket\BaseTicketEntities\obj\Debug\BaseTicketEntities.csprojResolveAssemblyReference.cache
